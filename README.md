@@ -18,8 +18,9 @@ The **Employee Management System** is a Python-based application that allows use
 - **pymysql**: Python library to connect to MySQL databases.
 
 ## Project Structure
-- `main.py`: Contains the main code for the Employee Management System.
-- `db_config.py`: (If applicable) Contains the database configuration and connection details.
+- `login.py`: Contains the main code for the login page of the Employee Management System.
+- `ems.py`: Contains the main code for the interface of management system and logics for CRUD and search operations.
+- `database.py`: Contains the database configuration and connection details with SQL queries.
 - `requirements.txt`: List of Python dependencies.
 
 ## Installation and Setup
